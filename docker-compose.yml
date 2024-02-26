@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  emg_bot:
+    build: .
+    environment:
+      - TOKEN=6554866243:AAFxnK6EJmbl00DyV6HCzsvMzXdOjZiKJJI
+    restart: on-failure
